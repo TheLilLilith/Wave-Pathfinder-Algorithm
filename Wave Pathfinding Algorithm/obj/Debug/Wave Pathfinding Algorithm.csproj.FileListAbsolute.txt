@@ -1,0 +1,26 @@
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\bin\Debug\Wave Pathfinding Algorithm.exe.config
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\bin\Debug\Wave Pathfinding Algorithm.exe
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\bin\Debug\Wave Pathfinding Algorithm.pdb
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\Wave Pathfinding Algorithm.csproj.AssemblyReference.cache
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\Wave Pathfinding Algorithm.csproj.SuggestedBindingRedirects.cache
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\MainWindow.g.cs
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\App.g.cs
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\Wave Pathfinding Algorithm_MarkupCompile.cache
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\Wave Pathfinding Algorithm_MarkupCompile.lref
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\MainWindow.baml
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\Wave Pathfinding Algorithm.g.resources
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\Wave_Pathfinding_Algorithm.Properties.Resources.resources
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\Wave Pathfinding Algorithm.csproj.GenerateResource.cache
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\Wave Pathfinding Algorithm.csproj.CoreCompileInputs.cache
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\Wave Pathfinding Algorithm.exe
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\Wave Pathfinding Algorithm.pdb
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\bin\Debug\MaterialDesignColors.dll
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\bin\Debug\Microsoft.Xaml.Behaviors.dll
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\bin\Debug\MaterialDesignColors.pdb
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\bin\Debug\Microsoft.Xaml.Behaviors.xml
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\App.baml
+D:\Projects\Wave Pathfinding Algorithm\Wave Pathfinding Algorithm\obj\Debug\Wave Pathfinding Algorithm.csproj.CopyComplete

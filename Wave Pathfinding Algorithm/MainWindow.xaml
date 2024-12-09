@@ -1,0 +1,62 @@
+﻿<Window x:Class="Wave_Pathfinding_Algorithm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        
+        xmlns:local="clr-namespace:Wave_Pathfinding_Algorithm"
+        mc:Ignorable="d"
+        Title="Волновой алгоритм" Height="450" MinWidth="920">
+        
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="150"/>
+        </Grid.RowDefinitions>
+        <Image Source="/bin/Debug/background.png" Grid.RowSpan="2" Stretch="UniformToFill"/>
+        <Button x:Name="AboutBtn" Content="О программе" HorizontalAlignment="Right" VerticalAlignment="Top" Click="AboutBtn_Click"/>
+        <Border Margin="10" Background="White" BorderThickness="2" BorderBrush="DodgerBlue" Height="120" CornerRadius="50" Grid.Row="1">
+        <WrapPanel >
+            
+                
+           
+
+            <StackPanel DockPanel.Dock="Top" Orientation="Vertical"  HorizontalAlignment="Center" Margin="10">
+                <Label Content="Размер матрицы" Margin="40,0,0,0"/>
+                <StackPanel Orientation="Horizontal" Margin="40,0,0,0">
+                    <TextBox x:Name="XSizeBox" Width="50"/>
+                    <TextBlock Text="x" Margin="0,0,5,0"/>
+                    <TextBox x:Name="NSizeBox" Width="50"/>
+                </StackPanel>
+                    <Button Style="{StaticResource MaterialDesignToolButton}" Background="DodgerBlue"  x:Name="GenerateMatrixButton" Content="Сгенерировать матрицу" Click="GenerateMatrixButton_Click" Margin="10,0,0,0"/>
+            </StackPanel>
+            <StackPanel Margin="10">
+                <Label Content="Метод распространения"/>
+                <Button Style="{StaticResource MaterialDesignRaisedSecondaryButton}" Background="GreenYellow" x:Name="OrtogonBtn" Content="Ортогональный" IsEnabled="False" Click="OrtogonBtn_Click"/>
+                <Button Style="{StaticResource MaterialDesignRaisedSecondaryButton}" Background="GreenYellow"  x:Name="DiagonBtn" Content="Орто-диагональный"  Click="DiagonBtn_Click"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Style="{StaticResource MaterialDesignToolButton}" x:Name="WallButton" Content="Добавить препятствие" Height="30" Width="160" Click="WallButton_Click" />
+                <Button Style="{StaticResource MaterialDesignRaisedDarkButton}" Background="Red"  x:Name="RemoveWallButton" Content="Режим удаления" Height="30" Width="160" Click="RemoveWallButton_Click"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                <Button Style="{StaticResource MaterialDesignToolButton}" x:Name="StartBtn" Content="Выбрать начало" Click="StartBtn_Click"/>
+                <Button Style="{StaticResource MaterialDesignToolButton}" x:Name="EndBtn" Content="Выбрать конец" Click="EndBtn_Click"/>
+            </StackPanel>
+            
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <CheckBox Name="AnimCheckBox" Style="{StaticResource MaterialDesignLightCheckBox}" Background="DodgerBlue" Content="Анимация" Margin="50,0,0,0" IsChecked="True" Checked="AnimCheckBox_Checked" Unchecked="AnimCheckBox_Unchecked"/>
+                    <Button x:Name="TraceBtn" Content="Выполнить трассировку" Click="TraceBtn_Click"/>
+                <Button x:Name="ResetBtn" Content="Сброс" Click="ResetBtn_Click" />
+            </StackPanel>
+           
+        </WrapPanel>
+        </Border>
+
+        <ScrollViewer Grid.Row="0" Margin="20,20,20,20">
+            <ContentPresenter Name="matrixContentPresenter" />
+        </ScrollViewer>
+      
+    </Grid>
+</Window>
